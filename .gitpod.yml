@@ -1,2 +1,6 @@
 image: 
     file: .gitpod.Dockerfile
+tasks:
+  - command: wget -r -l1 --no-parent  -A "*.deb" https://github.com/quarto-dev/quarto-cli/releases \
+             && sudo gdebi *.deb \
+             && rm *.deb
