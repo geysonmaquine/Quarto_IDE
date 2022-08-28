@@ -1,12 +1,11 @@
 ---
-title: "Transporte Quântico em Redes Hexagonais"
-author: "Geyson Maquiné Batalha"
 format: 
     revealjs:
         theme: estilo.css
 ---
 
-# In the morning sjd s
+# Transporte Quântico em Redes Hexagonais
+Geyson Maquiné 
 
 ## Getting up
 
