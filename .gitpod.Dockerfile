@@ -59,21 +59,12 @@ RUN apt-get update \
 	
 RUN apt install  r-cran-rmarkdown -y
 RUN apt install git -y
+RUN apt-get install gdebi-core -y
+RUN wget https://github.com/quarto-dev/quarto-cli/releases/download/v1.1.149/quarto-1.1.149-linux-amd64.deb
+RUN sudo gdebi *.deb -y
+
 
 
 CMD ["bash"]
 
 
-FROM rocker/r-ver:devel
-
-LABEL org.opencontainers.image.licenses="GPL-2.0-or-later" \
-      org.opencontainers.image.source="https://github.com/rocker-org/rocker-versioned2" \
-      org.opencontainers.image.vendor="Rocker Project" \
-      org.opencontainers.image.authors="Carl Boettiger <cboettig@ropensci.org>"
-
-
-RUN /rocker_scripts/install_quarto.sh
-
-EXPOSE 8787
-
-CMD ["/init"]
