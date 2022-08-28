@@ -5,6 +5,7 @@
 
 $font-family-sans-serif: "Droid Serif", "Palatino Linotype", "Book Antiqua", Palatino, "Microsoft YaHei", "Songti SC", serif !default;
 $presentation-heading-font: "Yanone Kaffeesatz";
+$presentation-font-size-root:30px;
 /*-- scss:defaults --*/
 
 $body-bg: #191919;
