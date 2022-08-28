@@ -58,6 +58,7 @@ RUN apt-get update \
  	&& rm -rf /var/lib/apt/lists/* 
 	
 RUN apt install  r-cran-rmarkdown -y
+RUN apt install git -y
 
 
 CMD ["bash"]
