@@ -1,4 +1,4 @@
-ROM ubuntu:focal
+FROM ubuntu:focal
 
 LABEL org.label-schema.license="GPL-2.0" \
       org.label-schema.vcs-url="https://github.com/rocker-org/r-ubuntu" \
