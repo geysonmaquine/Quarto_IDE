@@ -9,7 +9,7 @@ RUN sudo apt install build-essential -y
 RUN sudo apt install r-cran-rmarkdown -y
 RUN sudo apt-get install gdebi-core -y
 RUN wget https://github.com/quarto-dev/quarto-cli/releases/download/v1.1.149/quarto-1.1.149-linux-amd64.deb
-RUN sudo gdebi *.deb -y
+RUN sudo dpkg -i *.deb -y
 
 
 
