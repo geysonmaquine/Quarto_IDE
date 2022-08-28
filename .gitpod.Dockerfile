@@ -55,8 +55,9 @@ RUN apt-get update \
  	&& ln -s /usr/lib/R/site-library/littler/examples/installGithub.r /usr/local/bin/installGithub.r \
  	&& ln -s /usr/lib/R/site-library/littler/examples/testInstalled.r /usr/local/bin/testInstalled.r \
  	&& rm -rf /tmp/downloaded_packages/ /tmp/*.rds \
- 	&& rm -rf /var/lib/apt/lists/* \
-      && apt-get install  r-cran-rmarkdown -y
+ 	&& rm -rf /var/lib/apt/lists/* 
+	
+RUN apt install  r-cran-rmarkdown -y
 
 
 CMD ["bash"]
