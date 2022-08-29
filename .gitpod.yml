@@ -1,5 +1,10 @@
 image: 
     file: .gitpod.Dockerfile
 tasks:
-  - command: wget https://github.com/quarto-dev/quarto-cli/releases/download/v1.1.149/quarto-1.1.149-linux-amd64.deb && sudo gdebi *.deb -y && ls && rm *.deb
+  - command: wget https://github.com/quarto-dev/quarto-cli/releases/download/v1.1.149/quarto-1.1.149-linux-amd64.deb && 
 
+
+  # Instalação do quarto e remoção do arquivo deb 
+  # sudo gdebi *.deb -y && ls && rm *.deb
+
+#
