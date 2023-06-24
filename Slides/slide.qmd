@@ -4,13 +4,13 @@ format:
         theme: estilo.css
 ---
 
-# Transporte Quântico em Redes Hexagonais
+# Quantum transport in HOneycomb 
 Geyson Maquiné 
 
 ## Getting up
 
 - Turn off alarm
-- Get out of bed dsk
+- Get out of bed dsk a media cada um vai fazendo alguma coisa temos que enetnder
 
 ## Breakfast
 
